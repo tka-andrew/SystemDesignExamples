@@ -1,4 +1,4 @@
-# 09 Proxies
+# 10 Load Balancers
 This demonstrates a simple load balancer with the help of nginx.
 
 ## Note
