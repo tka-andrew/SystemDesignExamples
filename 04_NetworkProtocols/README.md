@@ -35,3 +35,5 @@ This repo demonstrates a simple server that handles HTTP requests.
     ```
     curl --header 'content-type: application/json' localhost:3000/hello --data '{"foo": "bar"}'
     ```
+
+4. Side note: curl allows you to send/receive data to/from servers using a bunch of different protocols, but by default it uses HTTP with GET request by default. When you specifies --data, the curl will by default send POST request.

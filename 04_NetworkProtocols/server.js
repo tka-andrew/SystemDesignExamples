@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.use(express.json());
+app.use(express.json()); // configure it to accept JSON format of request bodies
 
 app.listen(3000, () => console.log('Listening on port 3000.'));
 
