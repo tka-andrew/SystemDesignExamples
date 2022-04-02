@@ -2,9 +2,13 @@
 This demonstrates a simple reverse proxy with the help of nginx.
 
 ## Notes
-1. Forward Proxy = a server that sits between a client and servers, and acts on behalf of the client, typically used to mask the client's IP address.
-2. Reverse Proxy = a server that sits between servers and clients, and acts on behalf of the
+- Forward Proxy = a server that sits between a client and servers, and acts on behalf of the client, typically used to mask the client's IP address.
+
+- Reverse Proxy = a server that sits between servers and clients, and acts on behalf of the
 servers, typically used for logging, load balancing, or caching.
+
+- Nginx is a very popular webserver that is often used as a reverse proxy and load balancer.
+
 
 
 ## To run this example
