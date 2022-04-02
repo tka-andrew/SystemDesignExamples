@@ -2,7 +2,9 @@
 This demonstrates a simple load balancer with the help of nginx.
 
 ## Note
-1. Load balancer is a type of reverse proxy that distributes traffic across servers.
+- Load balancer is a type of reverse proxy that distributes traffic across servers.
+
+- A load balancer has a server-selection strategy that determines the laod balancer should distributes the traffic to which server.
 
 ## To run this example
 1. Install the open source NGINX from the [official website](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source/#installing-prebuilt-ubuntu-packages).
