@@ -1,0 +1,1 @@
+sudo docker run --name Etcd-server --network="host" --rm --env ALLOW_NONE_AUTHENTICATION=yes bitnami/etcd:latest # to use the same network as host
