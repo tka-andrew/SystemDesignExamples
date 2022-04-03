@@ -2,9 +2,11 @@
 This demonstrates how sharding can be implemented using a proxy.
 
 ## Note
-1. Replication = the act of duplicating data from one database server to another.
-2. Sharding = the act of splitting a database into multiple pieces called shards.
-3. Some examples of sharding strategies:
+- Replication = the act of duplicating data from one database server to another.
+
+- Sharding = the act of splitting a database into multiple pieces called shards.
+
+- Some examples of sharding strategies:
     - Sharding based on a client's region
     - Sharding based on the type of data stored
 

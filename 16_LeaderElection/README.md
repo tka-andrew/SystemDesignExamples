@@ -3,6 +3,8 @@
 ## Note
 - Leader Election = The process by which nodes in a cluster elect so-called "leader" among them.
 
+- Leader election is a common pattern in distributed systems.
+
 - When implemented correctly, all nodes in the cluster know which one is the leader at any given time, and can elect a new leader if the leader dies.
 
 - Consensus Algorithm = a type of complex algorithms used to have multiple entities agreed on a single data value
