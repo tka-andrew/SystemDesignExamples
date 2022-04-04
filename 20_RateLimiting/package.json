@@ -1,0 +1,16 @@
+{
+  "name": "20_RateLimiting",
+  "version": "1.0.0",
+  "description": "## Note - Rate Limiting     - The act of limiting the number of requests sent to or from a system     - This is often used to prevent DoS attcks     - Rate limiting can be enforced at IP-address level, user-account level or even region level",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
