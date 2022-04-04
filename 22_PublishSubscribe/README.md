@@ -1,6 +1,18 @@
 # 22 Publish Subscribe Pattern
 This demonstrates how publish subscribe pattern can be implemented using NodeJs.
 
+## Note
+- Publish/Subscribe Pattern
+    - Publishers publish messages to special topic without caring about who will read those messages
+    - Subscribers subscribe to topics and read messages coming through those topics
+    - Pub/Sub system often guarantees:
+        - at-least-once delivery
+        - persistent storage
+        - ordering of messages
+        - replayability of messages
+
+- Idempotent Operation = an operation that has the same ultimate outcome regardless of how many times it is performed
+
 ## To run this example
 1. Open a terminal and run the server:
     ```
