@@ -14,3 +14,7 @@ This demonstrates a map/reduce example.
     - Map step runs a map function on the various chunks of datasets and transforms these chunks into intermediate key-value pairs
     - Shuffle step reorganizes the intermediate key-value pairs such that pairs of the same key are routed to the same machine in the final step
     - Reduce step runs a reduce function on the newly shuffled key-value pairs and transform them into more meaningful data
+
+- Examples of where an asynchronous MapReduce job could be used:
+    - Find the most commonly-occuring errors in a web application
+    - Aggregate North-American YouTube-channel view counts

@@ -6,6 +6,13 @@ This demonstrates a simple load balancer with the help of nginx.
 
 - A load balancer has a server-selection strategy that determines the laod balancer should distributes the traffic to which server.
 
+- Some common server-selection strategies for load balancers:
+    - Client-IP based
+    - Round-robin
+    - Server-health-based
+
+- NginX is an example of load balancing software.
+
 ## To run this example
 1. Install the open source NGINX from the [official website](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source/#installing-prebuilt-ubuntu-packages).
 

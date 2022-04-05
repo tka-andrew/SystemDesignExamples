@@ -20,6 +20,8 @@ This repo demonstrates a simple server that handles HTTP requests.
 
 - HTTP stands for HyperText Transfer Protocol and it is built on top of TCP. HTTP basically provides the request response paradigm, and with it we can forget about TCP and IP.
 
+- HTTP exposes a more human-readable interface as compared to TCP and IP.
+
 - Refer to the http_request_example.js to see the schema of HTTP request and HTTP response.
 
 ## To run this example

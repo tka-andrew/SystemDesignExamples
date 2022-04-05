@@ -5,6 +5,11 @@
 
 - SQL database = any database that supports SQL and must use ACID transactions.
 
+- The 3 primary entities in a SQL database:
+    - Tables
+    - Rows
+    - Columns
+
 - ACID transation = a type of database transactin that has 4 important properties:
     - Atomicity = the operations should be either succeed or faile
     - Consistency = the transaction cannot bring the database to an invalid state

@@ -17,6 +17,8 @@ This demonstrates a simple rate limiting based on username, and the same user ca
 
 - Redis is also often used for rate limiting
 
+- Without proper defense, an entire system can be taken down by a DoS attack. 
+
 ## To run this example
 1. Open a terminal and run the server
     ```

@@ -13,6 +13,19 @@ This demonstrates how publish subscribe pattern can be implemented using NodeJs.
 
 - Idempotent Operation = an operation that has the same ultimate outcome regardless of how many times it is performed
 
+- Some examples of idempotent operations:
+    - Updating a phone number in a bank account
+    - Unsubscribing from a email list
+    - Making a Slack channel private
+    - Marking an email as read
+
+- Some examples of non-idempotent operations:
+    - Increasing like count
+    - Adding a new post
+
+- An example use case of Pub/Sub pipeline:
+    - Facebook News Feed handles sharing new posts on relevant people's news feeds in real time
+
 ## To run this example
 1. Open a terminal and run the server:
     ```

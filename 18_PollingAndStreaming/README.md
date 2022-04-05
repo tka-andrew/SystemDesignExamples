@@ -2,8 +2,14 @@
 This demonstrates the differences between Polling and Streaming.
 
 ## Note
-1. Polling = the act of fetching data regularly at an interval of time
-2. Streaming = the act of continuously getting a feed of information from server by keeping an open connection between the client and the server
+- Polling = the act of fetching data regularly at an interval of time
+
+- Streaming = the act of continuously getting a feed of information from server by keeping an open connection between the client and the server
+
+- Examples of streaming:
+    - Sending and receiving messages on Slack
+    - Watching videos on YouTube
+
 
 ## To run this example
 1. Open a terminal and run the server:

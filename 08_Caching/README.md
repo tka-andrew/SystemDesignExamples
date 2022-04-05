@@ -8,6 +8,12 @@ This repo demonstrates a simple server with caching ability.
 
 - Content Delivery Network (CDN) = a third party service that acts like a cache for your servers. Two of the most popular CNDs are Cloudfare and Google Cloud CDN. With CDN having servers all around the world, the latency for the clients to retrieve the data from the CDNs will be much lower than from your server in different country.
 
+- Caching is less likely to be advisable if accessed data is frequently updated.
+
+- Some examples of system-design scenarios where you would likely to use a cache:
+    - Users accessing static content on the home page of a website
+    - Users acessing articles on an online-newspaper website
+
 ## To run this example
 1. Open a terminal and run the server 
     ```

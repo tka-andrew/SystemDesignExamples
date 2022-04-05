@@ -26,6 +26,8 @@ This demonstrates a simple encryption using a npm package called aes256
     - The client verifies that the certificate was issued by a certificate authority and sends a premaster secret (another string of random bytes encrypted with the server's public key) to the server
     - The client and the server use the client hello, the server hello, and the premaster secret to then generate the same symmetric-encryption session keys, to be used to encrypt and decrypt all data communicated through the remainder of connection
 
+- A typical TLS handshake can be best summarized as:
+    - Generating symmetric-encryption session keys, to be used by both the server and the client to encrypt and decrypt future communications
 
 ## To run this example
 1. 

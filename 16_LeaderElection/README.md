@@ -3,7 +3,7 @@
 ## Note
 - Leader Election = The process by which nodes in a cluster elect so-called "leader" among them.
 
-- Leader election is a common pattern in distributed systems.
+- Leader election is a common pattern in distributed systems and helps in achieving high availability.
 
 - When implemented correctly, all nodes in the cluster know which one is the leader at any given time, and can elect a new leader if the leader dies.
 

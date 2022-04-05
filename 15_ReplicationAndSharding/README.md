@@ -4,10 +4,15 @@ This demonstrates how sharding can be implemented using a proxy.
 ## Note
 - Replication = the act of duplicating data from one database server to another.
 
+- Example of reasons to replicate a database in a system:
+    - To make the system more fault-tolerant
+    - To move data closer to a set of clients so as to improve latency for those clients
+
 - Sharding = the act of splitting a database into multiple pieces called shards.
 
 - Some examples of sharding strategies:
     - Sharding based on a client's region
+    - Sharding based on a customer's username
     - Sharding based on the type of data stored
 
 ## To run this example
