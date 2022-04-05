@@ -1,0 +1,12 @@
+{
+  "name": "23_MapReduce",
+  "version": "1.0.0",
+  "description": "## Note - Majority of data processing tasks could be split up into two steps: Map step and Reduce step.",
+  "main": "map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
