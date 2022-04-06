@@ -10,8 +10,8 @@
     - Rows
     - Columns
 
-- ACID transation = a type of database transactin that has 4 important properties:
-    - Atomicity = the operations should be either succeed or faile
+- ACID transaction = a type of database transaction that has 4 important properties:
+    - Atomicity = the operations should be either succeed or fail
     - Consistency = the transaction cannot bring the database to an invalid state
     - Isolation = the execution of multiple transactions concurrently will have the same effect as if they had been exectuted sequentially
     - Durability = any commited transaction is written to non-volatile memory

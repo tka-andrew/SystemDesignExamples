@@ -1,7 +1,7 @@
 # 07 Availability
 
 ## Note
-- Availability = The percentage of "uptime" of a system, and sometimes it is described using nines. For example:
+- Availability = The percentage of "uptime" of a system, and sometimes it is described using "nines". For example:
     - 99% = two nines
     - 99.9% = three nines
     - 99.99% = four nines

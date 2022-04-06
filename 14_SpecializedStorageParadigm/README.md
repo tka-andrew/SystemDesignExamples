@@ -16,7 +16,7 @@
 
 - Graph database
     - Stores data following the graph data model
-    - Data entries in a graph database can have explicitly defined relationships\
+    - Data entries in a graph database can have explicitly defined relationships
     - With the underlying graph structure, graph database can perform complex queries on deeply connected data very fast. And hence graph databases are often preferred for social network applications.
     - Examples of Graph Database:
         - Neo4j

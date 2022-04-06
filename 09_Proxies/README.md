@@ -9,8 +9,6 @@ servers, typically used for logging, load balancing, or caching.
 
 - Nginx is a very popular webserver that is often used as a reverse proxy and load balancer.
 
-
-
 ## To run this example
 1. Install the open source NGINX from the [official website](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-open-source/#installing-prebuilt-ubuntu-packages).
 

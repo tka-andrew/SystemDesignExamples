@@ -5,7 +5,7 @@
 
 - Throughput = The number of operations that a system can handle properly per unit of time. For example, number of requests that can be handled per second.
 
-- Interesting facts:
+- Approximations of latencies:
     - Reading 1 MB from RAM: 0.25ms
     - Reading 1 MB from SSD: 1ms
     - Transfer 1 MB over network: 10ms

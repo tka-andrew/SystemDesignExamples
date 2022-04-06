@@ -10,7 +10,6 @@ This demonstrates the differences between Polling and Streaming.
     - Sending and receiving messages on Slack
     - Watching videos on YouTube
 
-
 ## To run this example
 1. Open a terminal and run the server:
     ```
